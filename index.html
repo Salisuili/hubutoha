@@ -335,6 +335,7 @@
     <div class="container-xxl bg-light my-5 py-5">
       <div class="container">
         <div class="row align-items-center">
+          <!-- Landscape Image (Wider) -->
           <div class="col-lg-8 col-md-7">
             <div class="card">
               <img
@@ -344,7 +345,7 @@
               />
             </div>
           </div>
-
+          <!-- Portrait Image (Narrower) -->
           <div class="col-lg-4 col-md-5">
             <div class="card">
               <img
@@ -359,6 +360,32 @@
     </div>
     <!-- Banner End -->
 
+    <!-- Donation Section Start -->
+    <div class="container my-5">
+      <div class="card donation-card text-center p-4 bg-primary">
+        <h2 class="donate-title">💖 Donate for a Good Cause</h2>
+        <p class="quran-verse">
+          ❝ The example of those who spend their wealth in the way of Allah is
+          like a seed of grain that sprouts seven ears, in every ear a hundred
+          grains. Allah multiplies [His reward] for whom He wills. ❞
+          <br />— <strong>Surah Al-Baqarah (2:261)</strong>
+        </p>
+        <div class="account-details">
+          <h4>Donation Details:</h4>
+          <p><strong>Bank Name:</strong> Taj Bank</p>
+          <p>
+            <strong>Account Name:</strong> HUBU TOHA DA'WAH AND CHARITY
+            FOUNDATION
+          </p>
+          <p><strong>Account Number:</strong> 0010726470</p>
+        </div>
+        <a href="contact.html" class="btn btn-donate"
+          >Contact us for donation</a
+        >
+      </div>
+    </div>
+    <!-- Donation Section End -->
+
     <style>
       .landscape-img {
         width: 100%;
@@ -369,6 +396,48 @@
         width: 100%;
         height: auto;
         object-fit: cover;
+      }
+
+      /* Donation Section */
+      .donation-card {
+        color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+
+      .donate-title {
+        font-size: 28px;
+        font-weight: bold;
+      }
+
+      .quran-verse {
+        font-style: italic;
+        font-size: 18px;
+        margin: 20px 0;
+      }
+
+      .account-details {
+        font-size: 18px;
+        margin-bottom: 15px;
+      }
+
+      .btn-donate {
+        display: inline-block;
+        background: #fff;
+        color: #ff8c00;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px 20px;
+        border: 2px solid #fff;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: 0.3s;
+      }
+
+      .btn-donate:hover {
+        background: #fff;
+        color: #e66a00;
+        border-color: #e66a00;
       }
     </style>
 
